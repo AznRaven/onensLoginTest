@@ -1,0 +1,28 @@
+# Login
+POST http://localhost:8081/auth/login
+Content-Type: application/json
+
+{
+    "username":"z",
+    "password": "z"
+}
+
+###
+
+# Register
+POST http://localhost:8081/auth/register
+Content-Type: application/json
+
+{
+  "username": "z",
+  "email": "z@outlook.com",
+  "password": "z"
+}
+
+###
+
+# User Info
+GET http://localhost:8081/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0ZDY2MjkzYmViNWQ3YWQ3MzJjNjNhMCIsInVzZXIiOiJ6IiwiaWF0IjoxNjkxNzcxNjMzLCJleHAiOjE2OTE4NTgwMzN9.5FjNI9Z2nuRsmAMdfDFlcenOcgXfo6zKtjhu_GV6SPU
+
+###
